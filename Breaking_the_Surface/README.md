@@ -7,9 +7,28 @@ The goal is to write one application and have it work on whatever device your fr
 4. Virtual Machines: Java Virtual machine (JVM), implemented in software, running inside their electronic gadgets. When your friends run your program, the virtual machine reads and runs the bytecode.
 # What you'll do in Java
 You'll type a source code file, compile it using the javac compiler, and then run the compiled bytecode on a Java virtual machine.
+
 For example: 
+
 ![alt text](image-1.png)
 # Speed and memory usage
-When Java was first released, it was slow. But soon after, the HotSpot VM was created, as were other performance enhancers. While its's true that Java isn't the fastest language out therr, it's considered to be a very fast languge - almost as fast as languages like C and Rust, and much faster than most other languages out therr.
+When Java was first released, it was slow. But soon after, the HotSpot VM was created, as were other performance enhancers. While its's true that Java isn't the fastest language out there, it's considered to be a very fast languge - almost as fast as languages like C and Rust, and much faster than most other languages out there.
+
 Java has a magic super-power -- the JVM. The JVM can optimizr your code while it's running, so it's possible to create very fast applications without having to specialized high-performance code.
-But full disclosure compared to C and Rust, Java uses a lot of memory
+But full disclosure compared to C and Rust, Java uses a lot of memory 
+# Code structure in Java
+- In a source file, put a class.
+- In a class, put methods.
+- In a method, put statements.
+
+. What goes in a source file?
+
+A source code file (with the .jave extension) typically holds one class definition. The class represents a piece of ypur program, although a very tiny application might need just a single class. The class must go within a pair of curly braces.
+
+. What goes in a class?
+
+A class has one or more methods. For example: In the Dog class, the bark method will hold instructions for how the Dog should bark. Your methods must be declared inside a class (in other words, within the curly braces of the class).
+
+. What goes in a method?
+
+Within the curly braces of a method, write your instruction for how that method should be performed. Method code is basically a set statements, and for now you can think of a method kind od like a function or procedure.
