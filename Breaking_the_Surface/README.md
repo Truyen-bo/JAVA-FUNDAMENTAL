@@ -32,3 +32,12 @@ A class has one or more methods. For example: In the Dog class, the bark method 
 . What goes in a method?
 
 Within the curly braces of a method, write your instruction for how that method should be performed. Method code is basically a set statements, and for now you can think of a method kind od like a function or procedure.
+
+# Anatomy of a class
+When the JVM starts running, it looks for the class you give it at the command line, Then it starts looking for a specially written method that look exactly like:
+
+![alt text](image-2.png)
+
+Next, the JVM run everything between the curl braces {} of your main method. Every Java application has to have at least one class, and at least one main methoad ( not one main per class; just one main per application).
+
+![alt text](image-3.png)
