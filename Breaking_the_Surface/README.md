@@ -53,3 +53,66 @@ No matter how big your program is (in other words, no matter how many classes yo
 
 ![alt text](image-4.png)
 
+# What can you say in the main method
+Once you'r inside main (or any method), the fun begins. you can say all the normal things that you say in most programming languages to make the coputer do something.
+
+Your code can tell the JVM to:
+- Do something
+    
+    Statements: declarations, assignments, method calls, etc.
+
+    int x = 3;
+
+    String name = "Dirk";
+
+    x = x*17;
+
+    System.out.print ("x is" + x);
+
+    double d = Math.random();
+
+    // this is a comment
+
+- Do something again and again
+
+    Loops: for and while
+
+    while (x>12) 
+
+    {
+        
+        x = x-1;
+
+    }
+
+    for ( int i = 0; i < 10; i = i+1>)
+
+    {
+
+        Systen.out.print("i is now" + 1);
+    }
+
+- Do something under this condition
+
+    Branching: if/else tests
+
+    if ( x==10) 
+
+    {
+
+        System.out.print("x must be 10");
+
+    } else {
+
+        System.out.print ("x isn't 10");
+
+    }
+
+
+    if ((x<3)&&(name.equals("Dirk"))){
+
+        System.out.println("Gently");
+
+    }
+
+    System.out.print("this line runs to matter what");
