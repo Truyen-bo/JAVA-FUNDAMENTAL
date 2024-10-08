@@ -41,3 +41,15 @@ When the JVM starts running, it looks for the class you give it at the command l
 Next, the JVM run everything between the curl braces {} of your main method. Every Java application has to have at least one class, and at least one main methoad ( not one main per class; just one main per application).
 
 ![alt text](image-3.png)
+
+# Writting a class with a main()
+In Java, everything goes in a class. You'll type your source code file (with a.java extension), then compile it intio a new class file (with a .class extension). When you run your program you're really running a class.
+
+Running a program means telling the Java Virtual Machine (JVM) to "Load the MyFirstApp class, then start executing its main() method. Keep running 'til all the code in main is finished".
+
+The main() method is where your program starts running.
+
+No matter how big your program is (in other words, no matter how many classes your program uses), there's got to be a main() method to get the ball rolling.
+
+![alt text](image-4.png)
+
