@@ -126,3 +126,14 @@ The key to a loop is the conditional test. In Java, a conditional test is an exp
 
 Id you say something like, "While iceCreamInTheTub is true. keep scooping," you have a clear boolean test. Ther either is ice cream in the tub or ther isn't. But if you were to say, "While Bob keep scooping," you don't have a real test. To make that work, you'd have to change it to something like, "While Bob is snoring..." or "While Bob is not wearing plaid..."
 
+# Simple boolean tests
+You can do a simple boolean test by checking by checking the value of a variable, using a comparison operator like:
+
+" < " (less than)
+
+" > " (greater than)
+
+" == " (equality) (yes, that's two equals signs)
+
+Notice the difference between the assignments operator (a single equals sign) and the equals operator (two equals signs). Lots of programmers accidentally type = when they want ==. (But not you.)
+
