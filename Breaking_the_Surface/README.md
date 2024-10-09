@@ -137,3 +137,77 @@ You can do a simple boolean test by checking by checking the value of a variable
 
 Notice the difference between the assignments operator (a single equals sign) and the equals operator (two equals signs). Lots of programmers accidentally type = when they want ==. (But not you.)
 
+# There are no Dumb Questions
+- Why does everything have to be in a class?
+
+    Java is an object-oriented (OO) language. It's not like the old days when you had steam-driven compilers and wrote one monolithic source file with a pile of procedure. Now, you'll learn that a class is a blueprint for an object, and that nearly everything in Java is an object.
+
+- Do I have to put a main in every class I write ?
+
+    Nope. A Java program might use dozens of classes (even hundreds), but you might only have one with a main methoad - the one that starts the program running.
+
+- In my other language I can do a bloolean tets on an integer. In Java, can I say something like:
+
+int x = 1;
+
+while (x) {}
+
+ No. A boolean and an integer are not compatible types in Java. Since the result of a conditional test must be a boolean, the only variable you can directly test (without using a comparison operator) is a boolean. For example, you can say:
+
+ boolean isHot = true;
+ 
+ while (isHot) {}
+
+# Example of a while loop
+public class Loopy {
+    
+    public static voide main (String[] args) {
+        int x = 1;
+        System.out.println ("Before the Loop");
+        while (x<4) {
+        System.out.println("In the loop");
+        System.out.println("Value of x is" + x);
+        x = x+1; 
+        }
+        System.out.println ("This is after the loop");
+    }
+}
+ * This is the Output
+
+% Java Loopy
+
+Before the Loop
+
+In the loop
+
+Value of x is 1
+
+In the Loop
+
+Value of x is 2
+
+In the loop
+
+Value of x is 3
+
+This is after the loop
+
+# ** Bullet Points ** 
+
+. Statements end in a semicolon; 
+
+. Code blocks are defined by a pair of curly braces {}
+
+. Declear an int variable with a name and a type: int x;
+
+. The assignments operator is one equals signs =
+
+. The equals operator uses two equals signs ==
+
+. A while loop runs everything within ít block (defined by curly braces) as long as the conditional test is true.
+
+. if the conditional test is false, the while loop code block won't run, and execution will move down to the code immediately after the loop block.
+
+. Put a bloolean test inside parenthese: 
+
+    while ( x== 4) {}
