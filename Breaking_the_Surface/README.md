@@ -116,3 +116,13 @@ Your code can tell the JVM to:
     }
 
     System.out.print("this line runs to matter what");
+
+# Looping and looping and...
+Java has a lot of looping constructs: while, do-while, and for, being the oldest. You'll get the full loop scoop later in the book, but not right now. Let's start with while.
+
+The syntax (not to mention logic) is so simple you're probably asleep already. As long as some condition is true, you do everything inside the loop block. The loop block is bounded by a pair of curly braces, so whatever you want to repeat needs to be inside tha block.
+
+The key to a loop is the conditional test. In Java, a conditional test is an expression that results in a boolean value -- in other words, something that is either true or false.
+
+Id you say something like, "While iceCreamInTheTub is true. keep scooping," you have a clear boolean test. Ther either is ice cream in the tub or ther isn't. But if you were to say, "While Bob keep scooping," you don't have a real test. To make that work, you'd have to change it to something like, "While Bob is snoring..." or "While Bob is not wearing plaid..."
+
