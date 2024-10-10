@@ -210,4 +210,35 @@ This is after the loop
 
 . Put a bloolean test inside parenthese: 
 
-    while ( x== 4) {}
+    while (x==4) {}
+
+# The Compiler and the JVM battle over the question, "Who's more important?"
+- The JVM: What, are you kidding? Hello. I am Java. I'm the one who actually make a program run. The compiler just gives you a file. That's it. Just a file. You can print it out and use it for wallpaper, kindling, ling, lining the bird cage, whatever, but the file doesn't do anything unless I'm there to run it.
+
+- The Compiler: I don't appreciate that one.
+
+- The JVM: And that's another thing, the compiler has no sense of humor. Then again, if you had to spend all day checking nitpicky little syntax vilations...
+
+- The Compiler: Excuse me, but without me, what exactly would you run? There's a reason Java was designed to use a bytecode compiler, for your information. If Java were a purely interpreted languge, where at runtime -- the virtual machine had to translate straight from a text editor source code, a Java program would run at a ludicrously glacial pace.
+
+- The JVM: I'm not saying you're, like, completely useless. But really, what is it that yoy do? Seriously. I have no idea. A programmer could just write bytecode by hand, and I'd take it. You might be out of a job soon, buddy.
+
+- The Compiler: Execuse me, but that's quite an ignorant (not to mention) perspective. While it is true that theoretically you can run any properly formatted bytecode even is it didn't come out of a Java compiler, in pratice that's absurd. A programmer writing bytecode by habd is like painting pictures od your vacation instead of taking photos sure, it's an art, but most people prefer to use their time differently. And I would appreciate it if you would not refer to me as buddy.
+
+- The JVM: (I rest my case on the humor thing). But you still didn't answer my question, what do you actually do?
+
+- The Compiler: Remember that Java is a strongly typed language and that means I can't allow varialbe to hold date od the wrong type. This is a crucial safety feature, and I'm able to stop the vast majority of violations bdfore they ever get to you. And I almost
+
+- The JVM: But some still get through! I can throw ClassCastException and sometimes I get people trying to put the wrong type of thing in an array that was declared to hoad something else, and
+
+- The Compiler: Excuse me, but I wasn't done. And yes, there are some datatype exception that can emerge at runtime, but some of those have to be allowed to support one of Java's other important features-dynamic binding. At runtime, a Java program can include new objects that weren't even known to the orginal programmer, so  have to allow a certain amount of flexibility. But my job is to stop any thing that would never could never succeed won't work, for example, if a programmer accidentally tried to use a button object as a Socket connection, I would detect that and this protect them from causing harm at runtime.
+
+- The JVM: OK. Sure. But what about security? Look at all the security stuff I do, and you're like, what, checking for semicolons? Ooohhh bid security risk! Thank goodness for you!
+
+- The Compiler: Execuse me, but I am the first line of defense, as they say. The datatypr violations I previouslt described could wreak havoc in a program if they were allowed to manifest. I am aslo the on who prevents access violations, such as code trying to invoke a private method, or change a method that - for security reasons - must never be changed. I stop people from touching code they're not meant to see, including code trying to access another class' critical date. It would take hours, perhaps days even, tp describe the significanse of my work.
+
+- The JVM: Whatever. I have to do that same stuff too, though, just to make sure nobody snuck in after you and changed the bytecde before running it.
+
+- The Compiler: Of course, but as I indicated previously, if I didn't prevent what amounts to perhap 99% od the protential problems, you would grind to a halt. And it looks like we're out of time, so we'll haveto revisit this in a later chat.
+
+- The JVM: Oh, you can count on it. Buddy
