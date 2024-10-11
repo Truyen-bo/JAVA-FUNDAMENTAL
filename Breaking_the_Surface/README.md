@@ -300,8 +300,28 @@ Class IfTest2 {
 }
 
 --> New Output
+
 % java IfTest2
 
 x is NOT 3
 
 This runs no matter what
+
+# Monday morning at Bob's Java-enabled house
+Bob's alarm clock rings at 8:30 Monday morning, just like every other weekday. But Bob had a wild weekend and reaches for the SNOOZE button. An that's when the action strarts, and the Java-enabled appliances come to life...
+
+First, the alarm clock sends a message to the coffee maker "Hey, the geek's sleeping in againm delay the coffee 12 minutes."
+
+The coffee maker send a message to the Motorola toaster, "Hold the toast, Bob's snoozing."
+
+The alarm clock then sends a messageto Bob's Android, "Call Bob's 9 o'clock and tell him we're running a little late."
+
+Finally, the alarm clock sends a message to Sam's (Sam is the dog) wireless collar, with the too-familiar signal that means, "Get the paper, but don't expect a walk."
+
+A few minutes later, the alarm goes off again. And again Bob hits SNOOZE and the appliances start chattering. Finally, the alarm rings third time. But just a Bob reacher for the snooze button, the clock send the "jump and bark" signal to Sam's collar. Shocked to full consciousness, Bob rise, grateful that his Java skills, and spontancous internet shopping purchases, have enhanced the daily rountines of his life.
+
+--> Could this story be true? Mostly, yes! There are versions of Java running in devices including cell phones (especially cell phones), ATMs, credit cards, home security systems, parking meters, game consoles and more -- but you might not find a Java dog collar... yet
+
+Java has multiple ways to use just a tiny part of the Java platform to run on smaller devices (depending upon the version of Java you;re using). It's very popular for IoT (Inernet of Things) development. And, of course, lots of Android development is done with Java and JVM languages.
+
+
