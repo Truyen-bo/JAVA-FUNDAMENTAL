@@ -275,3 +275,33 @@ Did you spot the difference?
 
 System.out.println insert a newline (think of println as printnewline), while System.out.print keeps printing to the same line. If you want each thing you print out to be on its own line, use println. If you want everything to stick together on one line, use print.
 
+# Conditional branching 2
+The preceding code executes the line that prints "x must be 3" onlu if the condition (x is equal to 3) is true. Regardless od whether it's true, though, the line that prints "This runs no matter what" will run. So depending on the value of x, either one statement or two wil print out.
+
+But we can add an else to the condition so that we can say something like, "If there's still chocolate, keep coding, else (otherwise) get more chocolate, and then continue on..."
+
+Class IfTest2 {
+
+    public static void main (String[] args) {
+
+        int x=2;
+        
+        if (x==3) {
+
+            System.out.println("x must be 3");
+
+        } else {
+
+            System.out.println("x is NOT 3");
+        }
+
+        System.out.println("This runs no matter what");
+    }
+}
+
+--> New Output
+% java IfTest2
+
+x is NOT 3
+
+This runs no matter what
