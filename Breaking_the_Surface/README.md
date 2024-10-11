@@ -242,3 +242,28 @@ This is after the loop
 - The Compiler: Of course, but as I indicated previously, if I didn't prevent what amounts to perhap 99% od the protential problems, you would grind to a halt. And it looks like we're out of time, so we'll haveto revisit this in a later chat.
 
 - The JVM: Oh, you can count on it. Buddy
+
+# Conditional branching
+In Java, an if test is basically the same as the boolean test in a while loop, except instead od saying "while there's still chocolate", you'll say "if there's still chocolate..."
+
+Class IfTest {
+
+    public static void main (String[] args){
+
+        int x=3;
+        if (x==3){
+
+            System.out.println("x must be 3");
+        }
+
+        System.out.println("This runs no matter what");
+    }
+}
+
+--> Code out
+
+% java IfTest
+
+x must be 3
+
+This runs no matter what
