@@ -324,4 +324,33 @@ A few minutes later, the alarm goes off again. And again Bob hits SNOOZE and the
 
 Java has multiple ways to use just a tiny part of the Java platform to run on smaller devices (depending upon the version of Java you;re using). It's very popular for IoT (Inernet of Things) development. And, of course, lots of Android development is done with Java and JVM languages.
 
+# Phrase-O-Matic
+- How it WORKS
+
+In a nutshell, the program makes three lists of words, then randomly picks one word from each of the three lists, and prints put the result. Don't worry if you don't understand exactly what's happening in each line. For goodness sake, you've got the whole book ahead of you, so relax. This is just a quick look from a 30,000-foot outside-the-box targeted leveraged paradigm.
+
+1. The first step í to create three String arrays -- the containers that ưill hold all the words. Declearing and creating an array is easy, here's a small one:
+
+String[] pets = {"Fido"; "Zeus"; "Bin"};
+
+Each word is in quotes (as all good Strings must be) and separated by commas.
+
+2. For each of the three lists (arrays), the goal is to pick a random word, so we have to know how many words are in each list. If there are 14 words in a list, then we need a random number between 0 and 13 (Java arrays are zero-based, so the firs word is at position 0, the second word position 1, and the last word is pisition 13 in a 14-element array). Quite handily, a java array is more than happy to tell you ít length. You just have to ask. In the pets array, we'd say:
+
+int x = pets.length;
+
+and x would now hold the value 3.
+
+3. We need three random numbers. Java ships out of the box with several ways to generate random numbers, including java.util.Random (we will see later why this class name is prefixed with java util). The nextInt() method returns a random number between 0 and some number we give it, not including the number that we give it. So we'll give it the number of elements (the array length) in the list wr're using. Then we assign each result to a new variable. We could just as easily have a askef for a random number between 0 and 5, not including 5:
+
+int x = randomGenerator.nextInt(5);
+
+4. Now we get to build the phrase, by picking a word from each of three lists and smooshing them together (also inserting spaces between words). We use the "+" operator which concatenates (we prefer the more technical smooshes) the String objects together. To get an element from an array, you give the array the index number (position) of the thing you want by using:
+
+String s = pets[0];     // s is now the String "Fido"
+
+s = s + " " + "is a dog";    // s is now "Fido is a dog"
+
+5. Finally, we print the phrase to the command line and... We're in marketing.
+
 
