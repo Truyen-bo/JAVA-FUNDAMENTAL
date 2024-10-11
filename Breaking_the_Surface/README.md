@@ -267,3 +267,11 @@ Class IfTest {
 x must be 3
 
 This runs no matter what
+
+# System.out.print vs System.out.println
+If you've been paying attention (of course you have), the you've noticed us switching between "print" and "println".
+
+Did you spot the difference?
+
+System.out.println insert a newline (think of println as printnewline), while System.out.print keeps printing to the same line. If you want each thing you print out to be on its own line, use println. If you want everything to stick together on one line, use print.
+
