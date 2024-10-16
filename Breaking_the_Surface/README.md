@@ -353,4 +353,54 @@ s = s + " " + "is a dog";    // s is now "Fido is a dog"
 
 5. Finally, we print the phrase to the command line and... We're in marketing.
 
+# Code Magnets
+A working Java program is all scrambled up on the fridge. Can you rearrange the code snippets to make a working Java program that produces the output listed below?
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+class Shufflef {
+
+    public static void main(String [] args) {
+
+        int x = 3;
+
+        while (x > 0) {
+
+            if (x > 2) {
+
+                System.out.print("a");
+
+            }
+
+            x = x-1;
+
+            System.out.print("-");
+
+            if (x == 2) {
+
+                System.out.print ("b  c");
+
+            }
+
+            x = x-1;
+
+            System.out.print("-");
+
+            if (x == 1) {
+
+                System.out.print("d");
+
+                x = x-1;
+
+            }
+
+        }
+
+    }
+
+}
+
+
 
