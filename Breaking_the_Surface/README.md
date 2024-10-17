@@ -419,3 +419,6 @@ Your job is to take code snippets form the pool and place them into th blacnk li
 
 ![alt text](image-11.png)
 
+# A Trip To Objectivlle
+
+I was told there would be objects. In Chapter 1, we put all of our code in the main() method. That's not exactly object-oriented. In fact, that's not object-oriented at all. Well, we did use a few object, like the String arrays for the Phrase-O-Matic, but we didn't actually develop any of our own object types. So now we're got to leave that prceduaral world behind, get the heck out of main(),and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can give you a better life (at least the programming part of your life. Not much we can do about your fashion sense). Warning: once you get to Objectville, you might never go back. Send us a postcard.
