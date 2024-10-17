@@ -408,3 +408,14 @@ A short Java program is listed below. One block of the program is missing. Your 
 
 ![alt text](image-8.png)
 
+# Pool Puzzle
+Your job is to take code snippets form the pool and place them into th blacnk lines in the code. You may not use the same snippet more than once, and you won't need to use all the snippets. Your goal is to make a class that will compile and run and produce the output line, Don't be fooled -- this one's harder than it looks.
+
+![alt text](image-7.png) ![alt text](image-9.png) 
+
+![alt text](image-10.png)
+
+--> Answer
+
+![alt text](image-11.png)
+
