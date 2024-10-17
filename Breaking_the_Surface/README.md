@@ -419,6 +419,18 @@ Your job is to take code snippets form the pool and place them into th blacnk li
 
 ![alt text](image-11.png)
 
-# A Trip To Objectivlle
+# A Trip To Objectville
 
 I was told there would be objects. In Chapter 1, we put all of our code in the main() method. That's not exactly object-oriented. In fact, that's not object-oriented at all. Well, we did use a few object, like the String arrays for the Phrase-O-Matic, but we didn't actually develop any of our own object types. So now we're got to leave that prceduaral world behind, get the heck out of main(),and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can give you a better life (at least the programming part of your life. Not much we can do about your fashion sense). Warning: once you get to Objectville, you might never go back. Send us a postcard.
+
+# Chair Wars
+# (or How Objects Can Change Your Life)
+Once upon a time in a sofware shop, two programmers were give the same spec and told to "buil it". The Really Annoying Project Manager forced the two coders to compete,, by promising that whoever delivers first gets a cool Aeron chair anf adjustable height standing desk like all the Silicon Valley techies have. Laure, the procedural programmer, and Brad, the OO developer, both knew this would be a piece of cake.
+
+--> The spec:  ![alt text](image-12.png)
+
+Laura, sitting at her (non-adjustable) desk, thought to herself. "What are the things this program has to do? What procedures do we need?" And she answered herself, "rotate and playSound". So off she went to build the procedures. After all, what is a program if not a pile of procedures?
+
+Brad, meanwhile, kicked back a the coffe shop and thought to himself, "What are the things in this program... who are the key player?" He first thought of The Shapes. Of course, there were othee things he thought of like th User, the Sound, and Clicking Event. But he already had a library of code for those pieces, so he focused on building Shapes. Read on to see how Brad and Laura built their programs, and for the answer to your burning question, "So, who got the Aerong and the desk?"
+
+![alt text](image-13.png)  ![alt text](image-14.png)
