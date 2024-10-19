@@ -434,3 +434,29 @@ Laura, sitting at her (non-adjustable) desk, thought to herself. "What are the t
 Brad, meanwhile, kicked back a the coffe shop and thought to himself, "What are the things in this program... who are the key player?" He first thought of The Shapes. Of course, there were othee things he thought of like th User, the Sound, and Clicking Event. But he already had a library of code for those pieces, so he focused on building Shapes. Read on to see how Brad and Laura built their programs, and for the answer to your burning question, "So, who got the Aerong and the desk?"
 
 ![alt text](image-13.png)  ![alt text](image-14.png)
+
+<p> Laura thought she'd nailed it. She could almost feel the rolled steel Aeron beneath her...
+
+But watt! There'e been a spec change.
+
+"OK, technically you were first, Laura," said the Manager, "but we have to add just one tiny things to the program. It'll be no problem for crack programmers like you two."
+
+If I had a dime for every time I've heard that one. " thought Laura, knowing that spec chang no problem was a fantasy. "And yet Brad looks strangely serene. What;s up with that?" Still, Laura held tight to her core belief that the OO way, while cute, was just slow. And that if you wanted to change her mind, you'd have to pry it from her cold, dead, carpal tunnelled hands.
+
+![alt text](image-15.png)
+
+BACK AT LAURA'S DESK 
+
+The rotate procedure would still work; the code used a lookup table to match a shapeNum to an actual shape graphic. But playSound would have to change.
+
+![alt text](image-16.png)
+
+It turned out not to be such a big deal, but it still made her queasy to touch prviously tested code. Of all people, she should know that no matter what the project manager says, the spec always changes.
+
+AT BRAD'S LAPTOP AT THE BEACH
+
+Brad smiled, sipped his fruit frappe, and wrote one new class. Sometimes the thing he loved most about OO was that he didn't have to touch code he'd already tested and delivered. "Flexibility, extensibility,..." he mused, reflecting on the benefits od OO.
+
+![alt text](image-17.png)
+
+
