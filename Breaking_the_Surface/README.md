@@ -459,4 +459,29 @@ Brad smiled, sipped his fruit frappe, and wrote one new class. Sometimes the thi
 
 ![alt text](image-17.png)
 
+# Laura delivered just moments ahead of Brad
+(Hah" So much for tha foofy OO nonsense). But the smirk on Laura's face melted when the really Annoying Project Manager said (with that tone of disappointment), "Oh, no, that's not how the amoeba is supposed to rotate..."
 
+Turns put, both programmers had written their rotate code like this:
+
+1. Determine the rectangle that surrounds the shape.
+
+2. calculate the center of that rectangle, and rorate the shape around that point.
+
+But the amoeba shape was supposed ro rote around a point on one end, like a clock hand.
+
+"I'm toast," thought Laura, visualizing charred Wonderbread. "Although, hmmmm. I could just add another if/else to the rotate procedure and then just hard-code the rotation point code for the amoeba. That probably won't break anything." But the little voice at the bacj of her head said. "Big Mistake. Do you honestly think th spec won't change again?"
+
+![alt text](image-18.png)
+
+BACK AT LAURA"S DESK
+
+She figured she better add rotation oint argurments to the rotate procedure. A lot of code affected. Testing recompiling, the whole nine yards all over again. Things that used to work, didn't.
+
+![alt text](image-19.png)
+
+AT BRAD'S LAPTOP ON HIS LAWN CHAIR AT THE TELLERIDE BLUEGRASS FESTIVAL
+
+Without missing a beat, Brad modified the rorate method, but only in the Amoeba class. he never touched the tested working compiled code for the other parts of program. To give the Amoeba a rotation point, he added an attribute that all Amoebas would have. he modified, tested, and devivered (via free festival WiFi) the revide program during a single Bela Fleck set.
+
+![alt text](image-20.png)
